@@ -1,6 +1,6 @@
 ﻿using Shouldly;
 
-namespace AdventOfCode25
+namespace AdventOfCode25.DayTests
 {
     public class Day1
     {
