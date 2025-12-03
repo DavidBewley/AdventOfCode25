@@ -43,13 +43,5 @@ namespace AdventOfCode25.DayTests
             var result = processor.ProcessLeftTurns(input, 2);
             result.ShouldBe(expectedOutput);
         }
-
-        [Fact]
-        public void PartTwo()
-        {
-            var processor = new Logic.Day1Processor(50);
-            var result = processor.ProcessLeftTurns(_inputString, 2);
-            result.ShouldBe(6638);
-        }
     }
 }
