@@ -5,7 +5,7 @@ namespace AdventOfCode25.DayTests
     public class Day4
     {
         private string _inputString;
-        public Day4() => _inputString = File.ReadAllText("Inputs\\Day4.txt");
+        public Day4() => _inputString = File.ReadAllText($"Inputs\\{this.GetType().Name}.txt");
 
         [Theory]
         [InlineData("@@@@@@", 6)]

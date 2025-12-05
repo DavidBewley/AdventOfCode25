@@ -5,10 +5,7 @@ namespace AdventOfCode25.DayTests
     public class Day1
     {
         private string _inputString;
-        public Day1()
-        {
-            _inputString = File.ReadAllText("Inputs\\Day1.txt");
-        }
+        public Day1() => _inputString = File.ReadAllText($"Inputs\\{this.GetType().Name}.txt");
 
         [Theory]
         [InlineData("R50", 1)]
